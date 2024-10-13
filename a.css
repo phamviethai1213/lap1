@@ -1,0 +1,104 @@
+.active{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+div img{
+    width: 120px;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin: 20px;
+    padding: 1px;
+    font-size: 25px;
+}
+
+.active:hover{
+    background: blueviolet;
+    color: white;
+}
+
+
+
+
+li{
+    display: list-item;
+    padding: 20px;
+    
+}
+
+
+
+ul{
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    display: flex;
+}
+
+
+
+.container{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+
+
+div{
+    display: flex;
+    unicode-bidi: isolate;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.j-end {
+    justify-content: flex-end;
+}
+
+.squares {
+    display: flex;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+.rectangle {
+    width: 200px;
+    height: 280px;
+    background: red;
+}
+.s-rectangle {
+    width: 240px;
+    height: 260px;
+    background: blue;
+}
+.j-between {
+    justify-content: space-between;
+}
+
+ul li {
+    margin-left: 20px;
+    font-size: 23px;
+}
